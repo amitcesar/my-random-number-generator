@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyNumberGeneration</string>
+    <string name="background_princicipal">Background Princicipal</string>
+    <string name="imagem_logo">imagem_logo</string>
+    <string name="sorteador_de_numeros">SORTEADOR DE NUMEROS</string>
+    <string name="sortear">Sortear</string>
+    <string name="sortear_novamente">Sortear Novamente</string>
+    <string name="como_funciona_o_sorteador_de_numeros">Como funciona o sorteador de numeros?</string>
+    <string name="posso_escolher_o_intervalo_dos_numeros">Posso escolher o intervalo dos numeros?</string>
+    <string name="o_sorteador_utiliza_um_algoritmo_conteudo">O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sim_voce_pode_definir_os_valores_conteudo">Defina o intervalo e a quantidade de números, clique em \'Sortear\' e veja os resultados na tela. É rápido e fácil!</string>
+    <string name="quero_sortear">Quero sortear:</string>
+    <string name="numeros">NUMEROS</string>
+    <string name="nao_repetir_numero">Não repetir número</string>
+    <string name="primeiro_resultado">1º resultado</string>
+    <string name="resultado_do_sorteio">RESULTADO DO SORTEIO:</string>
+    <string name="_2">2</string>
+    <string name="de">DE</string>
+    <string name="_1">1</string>
+    <string name="ate">ATE</string>
+    <string name="_100">100</string>
+</resources>
