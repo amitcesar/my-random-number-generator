@@ -2,6 +2,7 @@ package com.github.amitcesar.mynumbergeneration
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.view.ViewCompat
@@ -11,6 +12,8 @@ import com.github.amitcesar.mynumbergeneration.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+
+    private val viewModel: SorteioViewModel by viewModels()
     private lateinit var binding: ActivityMainBinding
 
     private val navController by lazy {
@@ -41,6 +44,8 @@ class MainActivity : AppCompatActivity() {
                             AppCompatResources.getDrawable(this@MainActivity,
                                 R.drawable.ic_sorting_again)
                             ,null)
+
+                        viewModel.drawNumbers()
                     }
                     getString(R.string.sortear_novamente) -> {
                         navController?.popBackStack()

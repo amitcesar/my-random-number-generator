@@ -16,6 +16,7 @@
     <string name="nao_repetir_numero">Não repetir número</string>
     <string name="primeiro_resultado">1º resultado</string>
     <string name="resultado_do_sorteio">RESULTADO DO SORTEIO:</string>
+    <string name="numero_do_sorteio">%1$sº resultado</string>
     <string name="_2">2</string>
     <string name="de">DE</string>
     <string name="_1">1</string>
